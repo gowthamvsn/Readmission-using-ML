@@ -40,7 +40,7 @@ for identifying patients who were readmitted.
 ## How to Run
 1. Clone the repository  
 2. Install required libraries  
-3. Run the Jupyter notebook or Python scripts
+3. Run the Python script 'interactive_analysis.py'
 
 ## Contributors
 - Gowtham
