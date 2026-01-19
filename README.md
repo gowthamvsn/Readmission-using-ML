@@ -12,6 +12,8 @@ so hospitals can improve discharge planning and follow-up care.
 - Diabetes Readmission Dataset (UCI / Kaggle)
 - ~100,000 patient encounters
 - Target: Any readmission (Yes / No)
+Dataset available from UCI Machine Learning Repository:
+https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008
 
 ## Approach
 - Data cleaning and preprocessing
@@ -30,9 +32,9 @@ so hospitals can improve discharge planning and follow-up care.
 XGBoost achieved the best overall performance with strong recall
 for identifying patients who were readmitted.
 
-## Files in this Repository
-- `5502_readmission.ipynb` – Final analysis notebook
-- `5502_readmission_with_experimentation.py` – Model experimentation script
+## Files
+- `model_experiments.py` – Main training and evaluation pipeline
+- `interactive_analysis.py` – Interactive and exploratory analysis utilities
 - `Complete Final Code.pdf` – Final project report
 
 ## How to Run
